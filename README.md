@@ -1,40 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Task Dashboard
+
+## Overview
+Task Dashboard is a web application built using React and Next.js that allows users to manage tasks effectively. It includes features for creating, reading, updating, and deleting tasks, along with filtering and pagination.
+
+## Features
+- User-friendly interface for task management
+- Create, read, update, and delete tasks (CRUD operations)
+- Filter tasks by status
+- Pagination for managing large sets of tasks
+- API creation using Next.js serverless functions
+- Local database for managing task data
+
+## New Features
+- **API Creation**: Serverless API endpoints are created in the `pages/api` folder of the Next.js application, enabling easy interaction with the task data.
+- **Local Database**: A local database is implemented to handle CRUD operations seamlessly without needing an external database.
+
+## Requirements
+- Node.js (version 18 or above)
+- npm or yarn (for package management)
 
 ## Getting Started
 
-First, run the development server:
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/task-dashboard.git
+
+### 2. Navigate to the Project Directory
+After cloning the repository, navigate into the project directory:
+```bash
+cd task-dashboard
+### 3. Install Dependencies
+Make sure you have the latest version of npm or yarn installed. Then, install the required dependencies by running:
+```bash
+npm install
+or
+yarn install
+
+### 4. Run the Development Server
+To start the development server, execute the following command:
 
 ```bash
 npm run dev
-# or
+or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Summary of Remaining Sections
+- Included how to run the development server.
+- Described the API endpoints for task management.
+- Provided details on the local database structure.
+- Added information on running tests, contributing, and licensing.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+If you need any more adjustments or specific sections added, let me know!
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
