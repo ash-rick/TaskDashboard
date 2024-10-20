@@ -1,0 +1,40 @@
+.taskList {
+  padding: 16px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.taskList > div {
+  margin-bottom: 16px;
+}
+
+@media (max-width: 600px) {
+  .taskList {
+    padding: 8px;
+  }
+}
+.taskRow {
+  display: flex;
+  justify-content: space-between;
+}
+.taskCardCustom {
+  display: flex;
+  flex: 1;
+}
+
+.taskActions {
+  max-width: 50px;
+  margin: 16px;
+  display: flex;
+  column-gap: 16px;
+}
+.icon {
+  font-size: 16px;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.deleteIcon {
+  color: rgb(255, 42, 0);
+}

@@ -1,0 +1,118 @@
+[
+  {
+    "id": "1",
+    "title": "Setup Next.js Project",
+    "status": "Completed",
+    "assignee": "Manager",
+    "priority": "Low",
+    "dueDate": "2024-10-20"
+  },
+  {
+    "id": "2",
+    "title": "Create Dashboard Page",
+    "status": "To Do",
+    "assignee": "Self",
+    "priority": "Medium",
+    "dueDate": "2024-10-25",
+    "description": "new decs yes"
+  },
+  {
+    "id": "e919f18a-4823-466e-b02e-8729529722ed",
+    "title": "Create modal",
+    "description": "modal added with react-modal pkg",
+    "assignee": "manager",
+    "priority": "None",
+    "dueDate": "2024-10-31",
+    "status": "In Progress"
+  },
+  {
+    "id": "94a84c9f-1fe2-4145-b5d8-a8705d8febc1",
+    "title": "Create API's",
+    "description": "API added in serverless functions in pages folder",
+    "assignee": "Self",
+    "priority": "High",
+    "dueDate": "2024-10-25",
+    "status": "To Do"
+  },
+  {
+    "id": "5c8cf829-6179-4dce-bcf4-8180359b4574",
+    "title": "Title",
+    "description": "pagination with Next and previous",
+    "assignee": "Self",
+    "priority": "Medium",
+    "dueDate": "2024-10-26",
+    "status": "In Progress"
+  },
+  {
+    "id": "fb65332c-3c4f-4f1b-a5f9-217ca29d01cb",
+    "title": "new task",
+    "description": "",
+    "assignee": "manager",
+    "priority": "High",
+    "dueDate": "2024-10-31",
+    "status": "In Progress"
+  },
+  {
+    "id": "5084c67e-8ae6-4d29-98c5-5c5f6804e066",
+    "title": "new",
+    "description": "df",
+    "assignee": "Leader",
+    "priority": "High",
+    "dueDate": "2024-10-31",
+    "status": "In Progress"
+  },
+  {
+    "id": "5936f860-dad0-4cab-8bc6-98521d8c1baf",
+    "title": "nj",
+    "description": "",
+    "assignee": "manager",
+    "priority": "Medium",
+    "dueDate": "2024-10-20",
+    "status": "Completed"
+  },
+  {
+    "id": "f821d5f4-a99a-4cf5-bf48-33c8b457fbd1",
+    "title": "New",
+    "description": "",
+    "assignee": "Leader",
+    "priority": "Medium",
+    "dueDate": "2024-10-24",
+    "status": "Completed"
+  },
+  {
+    "id": "14becdd2-000e-4135-9aa3-c39c4203c11e",
+    "title": "New ",
+    "description": "",
+    "assignee": "CEO",
+    "priority": "Medium",
+    "dueDate": "2024-10-31",
+    "status": "In Progress"
+  },
+  {
+    "id": "de861f04-bd18-484a-862a-32ab10f6d522",
+    "title": "ek or",
+    "description": "",
+    "assignee": "manager",
+    "priority": "None",
+    "dueDate": "2024-10-24",
+    "status": "In Progress"
+  },
+  {
+    "id": "a3dc8fc0-f259-4365-a60e-e9e30d31b0ff",
+    "title": "Test",
+    "description": "",
+    "assignee": "CEO",
+    "priority": "High",
+    "dueDate": "2024-10-31",
+    "status": "In Progress"
+  },
+  {
+    "id": "85783e86-d80b-4a3e-8ff9-f71c7bf38223",
+    "title": "New task",
+    "description": "",
+    "assignee": "manager",
+    "priority": "None",
+    "dueDate": "2024-10-25",
+    "status": "Completed"
+  }
+]

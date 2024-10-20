@@ -1,0 +1,82 @@
+.taskCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  overflow: hidden;
+  gap: 10px;
+}
+
+.taskCard > span {
+  flex: 1;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ToDo {
+  border-left: 5px solid #ffcc00;
+}
+
+.InProgress {
+  border-left: 5px solid #ff8800;
+}
+
+.Completed {
+  border-left: 5px solid #4caf50;
+}
+
+.title {
+  text-align: left  !important;
+  margin-left: 10px;
+}
+
+.assignee {
+  font-size: 12px;
+  color: #666;
+}
+.priority {
+  display: flex;
+  column-gap: 2px;
+  align-items: flex-end;
+  font-size: 12px;
+  color: #666;
+}
+
+.dueDate {
+  font-size: 12px;
+  color: #f95454;
+}
+
+.status {
+  font-weight: bold;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
+.ToDo .status {
+  color: rgba(0, 0, 0, 0.711);
+  background-color: #fee191;
+}
+
+.InProgress .status {
+  color: rgba(0, 0, 0, 0.711);
+  background-color: #ffbd73;
+}
+
+.Completed .status {
+  color: rgba(0, 0, 0, 0.711);
+  background-color: #b6ffa1;
+}
+
+.priorityIcon {
+  font-size: 10px;
+}
