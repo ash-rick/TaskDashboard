@@ -24,17 +24,20 @@ Task Dashboard is a web application built using React and Next.js that allows us
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/your-username/task-dashboard.git
+```
 
 ### 2. Navigate to the Project Directory
 After cloning the repository, navigate into the project directory:
 ```bash
 cd task-dashboard
+```
 ### 3. Install Dependencies
 Make sure you have the latest version of npm or yarn installed. Then, install the required dependencies by running:
 ```bash
 npm install
 or
 yarn install
+```
 
 ### 4. Run the Development Server
 To start the development server, execute the following command:
@@ -43,7 +46,7 @@ To start the development server, execute the following command:
 npm run dev
 or
 yarn dev
-
+```
 ### Summary of Remaining Sections
 - Included how to run the development server.
 - Described the API endpoints for task management.
