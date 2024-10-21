@@ -23,7 +23,7 @@ Task Dashboard is a web application built using React and Next.js that allows us
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/task-dashboard.git
+git clone https://github.com/ash-rick/TaskDashboard.git
 ```
 
 ### 2. Navigate to the Project Directory
