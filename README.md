@@ -27,7 +27,7 @@ git clone https://github.com/your-username/task-dashboard.git
 ```
 
 ### 2. Navigate to the Project Directory
-After cloning the repository, navigate into the project directory:
+After cloning the repository, navigate to the project directory:
 ```bash
 cd TaskDashboard
 ```
@@ -39,6 +39,7 @@ or
 yarn install
 ```
 
+
 ### 4. Run the Development Server
 To start the development server, execute the following command:
 
@@ -47,5 +48,9 @@ npm run dev
 or
 yarn dev
 ```
+
+### 5. Changes Made
+- Added a note at the end of the "Run the Development Server" section to specify that the application runs on port 3000 because the API runs on that port.
+
 
 
