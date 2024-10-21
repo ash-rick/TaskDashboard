@@ -14,6 +14,15 @@ const writeTasks = (tasks: any[]) => {
 };
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
+
+  res.setHeader("Access-Control-Allow-Origin", "*"); 
+  res.setHeader("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE");
+  res.setHeader(
+    "Access-Control-Allow-Headers",
+    "Content-Type, Authorization"
+  );
+
+
   const { id } = req.query;
   const tasks = readTasks();
 

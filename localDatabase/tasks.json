@@ -114,5 +114,14 @@
     "priority": "None",
     "dueDate": "2024-10-25",
     "status": "Completed"
+  },
+  {
+    "id": "a9a8857d-d173-44c5-b518-9484664fc6fe",
+    "title": "Task for deployment",
+    "description": "",
+    "assignee": "Leader",
+    "priority": "High",
+    "dueDate": "2024-10-24",
+    "status": "In Progress"
   }
 ]
