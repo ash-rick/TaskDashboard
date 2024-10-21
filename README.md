@@ -49,7 +49,7 @@ or
 yarn dev
 ```
 
-### 5. Changes Made
+### 5. Note Runs on only port 3000
 - Added a note at the end of the "Run the Development Server" section to specify that the application runs on port 3000 because the API runs on that port.
 
 
