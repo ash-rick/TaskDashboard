@@ -29,7 +29,7 @@ git clone https://github.com/your-username/task-dashboard.git
 ### 2. Navigate to the Project Directory
 After cloning the repository, navigate into the project directory:
 ```bash
-cd task-dashboard
+cd TaskDashboard
 ```
 ### 3. Install Dependencies
 Make sure you have the latest version of npm or yarn installed. Then, install the required dependencies by running:
