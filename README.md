@@ -47,12 +47,5 @@ npm run dev
 or
 yarn dev
 ```
-### Summary of Remaining Sections
-- Included how to run the development server.
-- Described the API endpoints for task management.
-- Provided details on the local database structure.
-- Added information on running tests, contributing, and licensing.
-
-If you need any more adjustments or specific sections added, let me know!
 
 
